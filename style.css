@@ -1,0 +1,46 @@
+*{margin: 0;
+padding: 0;
+}
+body{
+    max-width: 1920px;
+}
+@media(max-width:1920px){
+    body{
+        max-width: 1440px;
+    }
+}
+@media(max-width:992px){
+    body{
+        max-width: 750px;
+    }
+}
+@media(max-width:767px){
+    body{
+        max-width: none;
+    }
+}
+.container
+{margin: 10px 10px;
+   
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+
+.f{width: 350px;
+   
+    
+    margin:10px;
+    background-color: antiquewhite;
+   
+    
+}
+.t{
+    width: 350px;
+    
+    margin:10px;    
+
+background-color: rgb(163, 115, 53);
+
+    
+}
